@@ -29,12 +29,12 @@ public class MainApplication extends Application implements ReactApplication {
     }
 
     @Override
-    public boolean isNewArchEnabled() {
+    public Boolean isNewArchEnabled() {
       return BuildConfig.IS_NEW_ARCHITECTURE_ENABLED;
     }
 
     @Override
-    public boolean isHermesEnabled() {
+    public Boolean isHermesEnabled() {
       return BuildConfig.IS_HERMES_ENABLED;
     }
   };
