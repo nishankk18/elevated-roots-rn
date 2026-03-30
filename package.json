@@ -1,0 +1,14 @@
+{
+  "name": "elevated-roots-rn",
+  "version": "1.0.0",
+  "scripts": {
+    "android": "react-native run-android",
+    "build:android": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@react-native/metro-config": "^0.84.1",
+    "react": "18.2.0",
+    "react-native": "0.74.6",
+    "react-native-webview": "13.16.1"
+  }
+}
